@@ -1,0 +1,679 @@
+﻿Variable,Question,Values
+YEARQ,Year and Quarter of Interview,YYYY.Q
+IDHH,NCVS ID For Households,character
+ICPSR,ICPSR HOUSEHOLD IDENTIFICATION NUMBER,numeric
+PANEL_ROT_GROUP,PANEL AND ROTATION GROUP,"The""tens"" digit identifies the panel; the""units"" digit identifies the rotation group. For example 16 represents panel 1 and rotation
+group 6. Together, the digits identify clusters which are used in conjunction with the rotation chart."
+URBANICITY,"This variable indicates whether the sample address is located in an urban, suburban, or rural block based on BJS-defined criteria,
+which include population size, housing unit density, and the Census Bureau's definitions of urbanized areas and urban clusters. Values
+are imputed for ungeocoded units.","Value Label
+1 Urban
+2 Suburban
+3 Rural
+8 Residue
+-1 Invalid until 2020 Q1
+9 Out of universe"
+LIV_TYPE,Type of Living Quarters,"Value Label
+01 House, apartment, flat
+02 Housing unit in nontransient hotel, motel, etc.
+03 Housing unit permanent in transient hotel, motel, etc.
+04 Housing unit in rooming house
+05 Mobile home or trailer with no permanent room added
+06 Mobile home or trailer with one or more permanent rooms added
+07 Housing unit not specified above
+08 Quarters not housing unit in rooming or boarding house
+09 Unit not permanent in transient hotel, motel, etc.
+10 Unoccupied site for mobile home, trailer, or tent
+11 Student quarters in college dormitory12 Other unit not specified above
+98 Residue
+99 Out of universe"
+UNITS,Number of housing units in structure,"Value Label
+01 One
+02 Two
+03 Three
+04 Four
+05 Five-Nine
+06 Ten or more
+07 Mobile home or trailer
+08 Only OTHER units
+98 Residue
+99 Out of universe"
+OUTSIDE,Direct outside access,"Value Label
+1 Yes
+2 No
+3 Don't know
+8 Residue
+9 Out of universe"
+GATED,Gated or walled community,"Value Label
+1 Yes
+2 No
+8 Residue
+-1 Invalid until 2004 Q1
+9 Out of universe"
+RESTRICTED,Building with restricted access,"Value Label
+1 Yes
+2 No
+8 Residue
+-1 Invalid until 2004 Q1
+9 Out of universe"
+INCOME,Household income,"Value Label
+01 Less than $5,000
+02 $5,000 to $7,499
+03 $7,500 to $9,999
+04 $10,000 to $12,499
+05 $12,500 to $14,999
+06 $15,000 to $17,499
+07 $17,500 to $19,999
+08 $20,000 to $24,999
+09 $25,000 to $29,999
+10 $30,000 to $34,999
+11 $35,000 to $39,999
+12 $40,000 to $49,999
+13 $50,000 to $74,999
+15 $75,000 to $99,999
+16 $100,000-$149,999
+17 $150,000-$199,999
+18 $200,000 or more
+98 Residue
+99 Out of universe"
+RACE_HOH,Race of head of houshold,"Value Label
+01 White Only 02 Black only
+03 Other
+06 White-Black
+21 Other only
+22 White-Other
+23 Black-Other
+24 White-Black-Other
+99 Interviews, Type B's, Type C's"
+PRINCIPAL_REL,Principal Person - Relationship to Reference Person,"Value Label
+01 Husband
+02 Wife
+03 Son
+04 Daughter
+05 Father
+06 Mother
+07 Brother
+08 Sister
+09 Other relative
+10 Nonrelative
+11 Reference person
+98 Residue
+99 Out of universe"
+PRINCIPAL_AGE,Principal Person - Age last birthday,numeric
+PRINCIPAL_MARITAL,Principal Person - Marital status,"Value Label
+1 Married
+2 Widowed
+3 Divorced
+4 Separated
+5 Never married
+8 Residue
+9 Out of universe"
+PRINCIPAL_SEX,Principal Person - Sex,"Value Label
+1 Male
+2 Female
+8 Residue
+9 Out of universe"
+PRINCIPAL_ARMFOR,Principal Person - Armed Forces member,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+PRINCIPAL_ED,"Principal Person - Education
+(What is the highest level of school completed or the highest degree received?)","Value Label
+00 Nev/kindergarten
+01 Elementary
+02 Elementary
+03 Elementary
+04 Elementary
+05 Elementary
+06 Elementary
+07 Elementary
+08 Elementary
+09 High school
+10 High school
+11 High school
+12 High school
+21 College 22 College
+23 College
+24 College
+25 College
+26 College
+27 12th grade (no diploma)
+28 High school grad (Diploma or quivalent)
+40 Some college (no degree)
+41 Associate degree
+42 Bachelor degree
+43 Master degree
+44 Prof school degree
+45 Doctorate degree
+98 Residue
+99 Out of universe"
+PRINCIPAL_RACE,PRINCIPAL PERSON RACE,"01 White only
+02 Black only
+03 American Indian, Alaska native only
+04 Asian only
+05 Hawaiian/Pacific Islander only
+06 White-Black
+07 White-American Indian
+08 White-Asian
+09 White-Hawaiian/Pacific Islander 10 Black-American Indian
+11 Black-Asian
+12 Black-Hawaiian/Pacific Islander
+13 American Indian-Asian
+14 Asian-Hawaiian/Pacific Islander
+15 White-Black-American Indian
+16 White-Black-Asian
+17 White-American Indian-Asian
+18 White-Asian-Hawaiian
+19 2 or 3 races
+20 4 or 5 races
+98 Residue
+-1 Invalid until 2003 Q1
+99 Out of universe"
+PRINCIPAL_HISP,PRINCIPAL PERSON HISPANIC ORIGIN,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+REF_AGE,Reference Person - Age last birthday,"numeric (98 residue, 99 out of universe)"
+REF_MARITAL,REFERENCE PERSON MARITAL STATUS,"Value Label
+1 Married
+2 Widowed
+3 Divorced
+4 Separated
+5 Never married
+8 Residue
+9 Out of universe"
+REF_SEX,Reference Person - Sex,"Value Label
+1 Male
+2 Female
+8 Residue
+9 Out of universe"
+REF_ARMFOR,Reference Person - Armed Forces member,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+REF_ED,"Reference Person - Education
+(What is the highest level of school completed or the highest degree received?)","Value Label
+00 Nev/kindergarten
+01 Elementary
+02 Elementary
+03 Elementary
+04 Elementary
+05 Elementary
+06 Elementary
+07 Elementary
+08 Elementary
+09 High school
+10 High school
+11 High school
+12 High school
+21 College 22 College
+23 College
+24 College
+25 College
+26 College
+27 12th grade (no diploma)
+28 High school grad (Diploma or quivalent)
+40 Some college (no degree)
+41 Associate degree
+42 Bachelor degree
+43 Master degree
+44 Prof school degree
+45 Doctorate degree
+98 Residue
+99 Out of universe"
+REF_RACE,Reference PERSON RACE,"01 White only
+02 Black only
+03 American Indian, Alaska native only
+04 Asian only
+05 Hawaiian/Pacific Islander only
+06 White-Black
+07 White-American Indian
+08 White-Asian
+09 White-Hawaiian/Pacific Islander 10 Black-American Indian
+11 Black-Asian
+12 Black-Hawaiian/Pacific Islander
+13 American Indian-Asian
+14 Asian-Hawaiian/Pacific Islander
+15 White-Black-American Indian
+16 White-Black-Asian
+17 White-American Indian-Asian
+18 White-Asian-Hawaiian
+19 2 or 3 races
+20 4 or 5 races
+98 Residue
+-1 Invalid until 2003 Q1
+99 Out of universe"
+REF_HISP,Reference PERSON HISPANIC ORIGIN,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+NUM_OVER12,Number of household members 12 years of age and OVER,"numeric (98 residue, 99 out of universe)"
+NUM_UNDER12,Number of household members UNDER 12 years of age,"numeric (98 residue, 99 out of universe)"
+NUM_REPORT,Total number of crime incident reports filled,"numeric (98 residue, 99 out of universe)"
+BUSINESS,Does anyone in this household operate a business from this address?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+BUSINESS_SIGN,Is there a sign on the premises or some other indication to the general public that a business is operated from this address?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+BROKEN_IN,"(a) Broken in or attempted to break into your home by forcing a door or window, pushing past someone, jimmying a lock, cutting a
+screen, or entering through an open door or window?
+(b) Has anyone illegally gotten in or tried to get into a garage, shed or storage room?
+OR
+(c) Illegally gotten in or tried to get into a hotel or motel room or vacation home where you were staying?
+Did any incidents of this type happen to you?","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+NUM_BROKEN_IN,How many times?,"numeric (98 residue, 99 out of universe)"
+NUM_VEHICLE,"What was the total number of cars, vans, trucks, motorcycles, or other motor vehicles owned by you or any other member of this
+household during the last 6 months? Include those you no longer own.","Value Label
+0 None
+1 One
+2 Two
+3 Three
+4 Four or more
+8 Residue
+9 Out of universe"
+VEHICLE_THEFT,"(a) Stolen or used without permission?
+(b) Did anyone steal any parts such as a tire, tape deck, hubcap or battery?
+(c) Did anyone steal gas from (it/them)?
+OR
+(d) Did anyone attempt to steal any vehicle or parts attached to (it/them)?","Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+NUM_VEHICLE_THEFT,How many times?,"numeric (98 residue, 99 out of universe)"
+COLLEGE,Do you live at a college or university,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+PUBLIC,Are your living quarters part of public housing?,"Value Label
+1 Yes (public housing)
+2 No (not public housing)
+8 Residue
+9 Out of universe"
+INDIAN_RES,Are your living quarters located on an American Indian reservation or on Indian Lands?,"Value Label
+1 Yes
+2 No
+8 Residue
+-1 Invalid until 1999 Q3
+9 Out of universe"
+FAMILY_STRUCTURE,FAMILY STRUCTURE,"Value Label
+01 Male reference person, married female partner, children, relatives only
+02 Male reference person, married female partner, children, nonrelatives
+03 Male reference person, married female partner, children, relatives and nonrelatives
+04 Male reference person, married female partner, children only
+05 Male reference person, married female partner, relatives only
+06 Male reference person, married female partner, nonrelatives only
+07 Male reference person, married female partner, relatives and non-relatives
+08 Male reference person, married female partner only
+09 Lone male reference person, children, relatives only
+10 Lone male reference person, children, nonrelatives only
+11 Lone male reference person, children, relatives and nonrelatives
+12 Lone male reference person, children only
+13 Lone male reference person, relatives only. 14 Lone male reference person, nonrelatives only
+15 Lone male reference person, relatives and nonrelatives
+16 Lone male reference person only
+17 Female reference person, married male partner, children, relatives only
+18 Female reference person, married male partner, children, nonrelatives only
+19 Female reference person, married male partner, children, relatives and non-relatives
+20 Female reference person, married male partner, children only
+21 Female reference person, married male partner, relatives only
+22 Female reference person, married male partner, nonrelatives only
+23 Female reference person, married male partner, relatives and non-relatives
+24 Female reference person, married male partner only
+25 Lone female reference person, children, relatives only
+26 Lone female reference person, children, nonrelatives only
+27 Lone female reference person, children, relatives and nonrelatives
+28 Lone female reference person, children only
+29 Lone female reference person, relatives only
+30 Lone female reference person, nonrelatives only
+31 Lone female reference person, relatives and non-relatives
+32 Lone female reference person only
+33 Other combinations
+34 Residue
+99 Out of universe"
+REGION,REGION,"Value Label
+1 Northeast
+2 Midwest
+3 South
+4 West
+-1 Invalid until 1995 Q3"
+PRINCIPAL_SCHOOL,Principal person information - attending school,"Value Label
+0 Regular school
+1 College/University
+2 Trade school. 3 Vocational school
+4 None of the above schools
+8 Residue
+9 Out of universe"
+REF_SCHOOL,Reference person information - attending school,"Value Label
+0 Regular school
+1 College/University
+2 Trade school. 3 Vocational school
+4 None of the above schools
+8 Residue
+9 Out of universe"
+REF_REL,Relationship to reference person,"Value Label
+01 Husband
+02 Wife
+03 Son
+04 Daughter
+05 Father
+06 Mother
+07 Brother
+08 Sister
+09 Other relative
+10 Nonrelative
+11 Reference person
+98 Residue
+99 Out of universe"
+AGE,Age Last Birthday,"numeric (98 residue, 99 out of universe)"
+MARITAL,Marital Status,"Value Label
+1 Married
+2 Widowed
+3 Divorced
+4 Separated
+5 Never married
+8 Residue
+9 Out of universe"
+SEX,Sex,"Value Label
+1 Male
+2 Female
+8 Residue
+9 Out of universe"
+ARMFOR,Armed Forces Member,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+ED,Education (What is the highest level of school completed or the highest degree received?),"Value Label
+00 Nev/kindergarten
+01 Elementary
+02 Elementary
+03 Elementary
+04 Elementary
+05 Elementary
+06 Elementary
+07 Elementary
+08 Elementary
+09 High school
+10 High school
+11 High school
+12 High school
+21 College 22 College
+23 College
+24 College
+25 College
+26 College
+27 12th grade (no diploma)
+28 High school grad (Diploma or quivalent)
+40 Some college (no degree)
+41 Associate degree
+42 Bachelor degree
+43 Master degree
+44 Prof school degree
+45 Doctorate degree
+98 Residue
+99 Out of universe"
+RACE,Race,"01 White only
+02 Black only
+03 American Indian, Alaska native only
+04 Asian only
+05 Hawaiian/Pacific Islander only
+06 White-Black
+07 White-American Indian
+08 White-Asian
+09 White-Hawaiian/Pacific Islander 10 Black-American Indian
+11 Black-Asian
+12 Black-Hawaiian/Pacific Islander
+13 American Indian-Asian
+14 Asian-Hawaiian/Pacific Islander
+15 White-Black-American Indian
+16 White-Black-Asian
+17 White-American Indian-Asian
+18 White-Asian-Hawaiian
+19 2 or 3 races
+20 4 or 5 races
+98 Residue
+-1 Invalid until 2003 Q1
+99 Out of universe"
+HISP,Hispanic Origin,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+STOLEN,"Was something belonging to YOU stolen, such as -
+(a) Things that you carry, like luggage, a wallet, purse, briefcase, book -
+(b) Clothing, jewelry, or calculator -
+(c) Bicycle or sports equipment -
+(d) Things in your house - like a TV, stereo, or tools -
+(e) Things outside your home such as a garden hose or lawn furniture -
+(f) Things belonging to children in the household -
+(g) Things from a vehicle, such as a package, groceries, camera, or cassette tapes -
+OR
+(h) Did anyone ATTEMPT to steal anything belonging to you?","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+NUM_STOLEN,How many times?,"numeric (98 residue, 99 out of universe)"
+ATTACK_LOC,"were you attacked or threatened or did you have something
+stolen from you -
+(a) At home including the porch or yard -
+(b) At or near a friend's, relative's, or neighbor's home -
+(c) At work or school -
+(d) In places such as a storage shed or laundry room, a shopping mall, restaurant, bank, or airport -
+(e) While riding in any vehicle -
+(f) On the street or in a parking lot -
+
+(g) At such places as a party, theater, gym, picnic area, bowling lanes, or while fishing or hunting-
+OR
+
+(h) Did anyone attempt to attack or attempt to steal anything belonging to you from any of these places?","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+WEAPON,"attacked or threatened you in any of these ways
+EXCLUDE TELEPHONE THREATS
+(a) With any weapon, for instance, a gun or knife -
+(b) With anything like a baseball bat, frying pan, scissors, or stick -
+(c) By something thrown, such as a rock or bottle -
+(d) Include any grabbing, punching, or choking,
+(e) Any rape, attempted rape, or other type of sexual attack -
+(f) Any face to face threats -
+OR
+(g) Any attack or threat or use of force by anyone at all? Please mention it even if you are not certain it was a crime.","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+NUM_WEAPON,How many times?,"numeric (98 residue, 99 out of universe)"
+OFFENDER_KNOWN,"People often don't think of incidents committed by someone they know. (Other than any incidents already mentioned), did you have
+something stolen from you or were you attacked or threatened by --
+EXCLUDE TELEPHONE THREATS
+(a) Someone at work or school -
+(b) A neighbor or friend -
+(c) A relative or family member -
+(d) Any other person you've met or known?","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+NUM_OFFENDER_KNOWN,How many times?,"numeric (98 residue, 99 out of universe)"
+FORCED_SEX,"Incidents involving forced or unwanted sexual acts are often difficult to talk about. (Other than any incidents already mentioned), have
+you been forced or coerced to engage in unwanted sexual activity by -
+(a) Someone you didn't know before -
+(b) A casual acquaintance -
+OR
+(c) Someone you know well?","numeric (98 residue, 99 out of universe)"
+NUM_FORCED_SEX,How many times?,"numeric (98 residue, 99 out of universe)"
+POLICE,"During the last 6 months, (other than any incidents already mentioned,) did you call the police to report something that happened to
+YOU which you thought was a crime?","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+NO_POLICE,"During the last 6 months, (other than any incidents already mentioned,) did anything which you thought was a crime happen to YOU,
+but you did NOT report to the police?","Value Label
+1 Yes
+2 No
+3 Refused
+8 Residue
+9 Out of universe"
+DIS_HEAR,Are you deaf or do you have serious difficulty hearing?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe
+-1 Invalid until 2016 Q3"
+DIS_VIS,Are you blind or do you have serious difficulty seeing even when wearing glasses?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe
+-1 Invalid until 2016 Q3"
+DIS_LEARN,"Because of a physical, mental, or emotional condition, do you have serious difficulty: Concentrating, remembering, or making decisions?","Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe
+-1 Invalid until 2016 Q3"
+DIS_PHYS,"Because of a physical, mental, or emotional condition, do you have serious difficulty: Walking or climbing stairs?","Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe
+-1 Invalid until 2016 Q3"
+DIS_DRESS_BATHE,"Because of a physical, mental, or emotional condition, do you have serious difficulty: Dressing or bathing?","Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe
+-1 Invalid until 2016 Q3"
+DIS_LEAVING_HOME,"Because of a physical, mental, or emotional condition, do you have difficulty doing errands alone such as visiting a doctor's office or
+shopping?","Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe
+-1 Invalid until 2016 Q3"
+CITIZENSHIP,"Are you a citizen of the United States? That is, were you born in the United States, born in a U.S. territory, born of U.S. citizen
+parent(s), or become a citizen of the U.S. through naturalization?","Value Label
+1 Yes, born in the United States
+2 Yes, born in Puerto Rico, Guam, the U.S. Virgin Islands, or Northern Marianas
+3 Yes, born abroad of U.S. citizen parent or parents
+4 Yes, citizen by naturalization
+5 No, not a citizen
+8 Residue
+-1 Invalid until 2017 Q1
+9 Blank"
+SEXUAL_ORIENTATION,Which of the following best represents how you think of yourself?,"Value Label
+1 Lesbian or gay
+2 Straight, that is, not lesbian or gay
+3 Bisexual
+4 Something else
+5 I don't know the answer
+6 Refused
+8 Residue
+-1 Invalid until 2017 Q1
+9 Blank"
+ACTIVE_DUTY,"Have you ever served on active duty in the U.S. Armed Forces, Reserves, or National Guard?","Value Label
+1 Never served in the military
+2 Only on active duty for training in the Reserves or National Guard
+3 Now on active duty
+4 On active duty in the past, but not now
+8 Residue
+-1 Invalid until 2017 Q1
+9 Blank"
+JOB_WEEK,Did you have a job or work at a business last week? (Do not include volunteer work or work around the house.),"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+JOB_6MO,Did you have a job or work at a business DURING THE LAST 6 MONTHS?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+JOB_2WEEK,Did that (job/work) last 2 consecutive weeks or more?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+JOB,Which of the following best describes your job?,"Value Label
+01 Physician
+02 Nurse
+03 Technician
+04 Other
+05 Professional (Social worker/psychiatrist)
+06 Custodial care
+07 Other
+08 Preschool
+09 Elementary
+10 Junior high or middle school
+11 High School
+12 College or university
+13 Technical or industrial school
+14 Special education facility
+15 Other
+16 Law enforcement officer
+17 Prison or jail guard
+18 Security guard
+19 Other
+20 Convenience or liquor store clerk
+21 Gas station attendant
+22 Bartender
+23 Other
+24 Bus driver
+25 Taxi cab driver
+26 Other
+27 Something Else
+98 Residue
+99 Out of universe"
+EMP_TYPE,Is your job with…,"Value Label
+1 A private company, business, or individual for wages
+2 The Federal government
+3 A State, county, or local government
+4 Yourself, (Self-employed) in your own business, professional practice, or farm
+8 Residue
+9 Out of universe"
+JOB_LOC,"While working at your job, do you work mostly in -","Value Label
+1 A city
+2 Suburban area
+3 Rural area
+4 Combination of any of these
+8 Residue
+9 Out of universe"
+JOB_COLLEGE,Are you employed by a college or university?,"Value Label
+1 Yes
+2 No
+8 Residue
+9 Out of universe"
+ATT_COLLEGE,Attending college,"Value Label
+0 Regular school
+1 College/university
+2 Trade school
+3 Vocational school
+4 None of the above schools
+8 Residue
+9 Out of universe"
+NUM_INCIDENTS,NUMBER OF CRIME INCIDENT REPORTS,"numeric (98 residue, 99 out of universe)"
